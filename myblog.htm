@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/png" href="me.jpg" sizes="96x96">
+<title>My Blog</title></head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="blog.css">
+<link rel="stylesheet" href="design.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+
+<div>
+  <ul class="clr">
+    <li id="li1"><a href="file:///C:/Users/Spandan%20Majumder/Documents/html%20css/cv.htm#home"><i class="fa fa-user-o fa-lg"></i> Profile</a></li>
+    <li id="li1"><a class="active" href="file:///C:/Users/Spandan%20Majumder/Documents/html%20css/myblog.htm"><i class="fa fa-university fa-lg" ></i> Institutions</a></li>
+    <li id="li1"><a href="https://www.facebook.com/spandanmajumderjblss"><i class="fa fa-certificate fa-lg"></i> Certifications</a></li>
+    <li id="li1"><a href="file:///C:/Users/Spandan%20Majumder/Documents/html%20css/gal.htm#s"><i class="fa fa-picture-o fa-lg" ></i> Photos</a></li>
+    <li id="li1"><a href="https://www.facebook.com/spandanmajumderjblss"><i class="fa fa-camera-retro fa-lg  "></i> Video</a></li>
+    <div class="clr1">
+      <li id="li1"><a href="">About Me</a></li>
+    </div>
+  </ul>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>My Instutions</b></h1>
+  <p>Welcome to the Insttution Blog of <span class="w3-tag">Spandan Majumder</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- secondaruy -->
+  <div class="w3-card-4 w3-margin w3-white">
+
+      <!-- ********slider window code ************** -->
+
+<div class="slideshow-container" style="margin-top: 0px;">
+
+<div class="mySlides fade">
+  <img src="union.jpg" style="width:100%;height: 500px;">
+  <div class="text">Playing Ground</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="union3.jpg" style="width:100%;height: 500px;">
+  <div class="text">Main Building</div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+ 
+</div>
+
+</div>
+<br>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+
+
+<!-- ********slider window code ************** -->
+
+    <div class="w3-container w3-padding-8">
+      <h3><b>My Childhood</b></h3>
+      <h5>Serampore Union Institution, <span class="w3-opacity">April 2005 -March 2010</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Serampore Union Institution is a Bengali medium boys' school in India, accredited as "A-Grade Excellent Educational Institution" by West Bengali Council of Higher Secondary Education for its brilliant and enviable academic performance. The school was inaugurated by Ishwar Chandra Vidyasagar. The school is affiliated to the West Bengal Board of Secondary Education and the West Bengal Council of Higher Secondary Education. It was established in 1884. In 2009, the school celebrated its 125th anniversary.</P>
+<p>Spread over an area of almost ten bighas[clarification needed] and close to the river, the Hooghly, in the heart of Serampore (erstwhile Fredricknagore), a Historical and famous city in West Bengal. </p><p>Serampore Union Institution has been in the centre of many historical events of before and after India's independence, with her spirited children actively participating in the freedom movement and process of reformation, social as well as political, besides achieving brilliant academic excellence spanning a period of hundred and twenty five years since 1884.</p>
+     <hr>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Higher Secendory -->
+  <div class="w3-card-4 w3-margin w3-white">
+
+
+  <img src="snv.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container w3-padding-8">
+      <h3><b>My Intermediate</b></h3>
+      <h5>Sheoraphuly Surendranath Vidyaniketan(For Boys)<span class="w3-opacity"> May 2, 2010 - April 2012</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p style="text-align:left">Sheoraphuli Surendra Nath Vidyaniketan was established in 1963 by famous Jute Merchant Late Surendra Nath Ghosh who did many benevolent social work in his locality. This school is a Bengali medium school at Sheoraphuli, West Bengal, India. Students of the school appear for 10th (Madhyamik) examination under the West Bengal Board of Secondary Education and 12th (Higher Secondary Examination) examination under the West Bengal Council of Higher Secondary Education.</p>
+	<p>Grades 5 to 10 are divided into three sections . Grade 11 and 12 have three streams - science, arts and commerce. The day section of this school is boys-only with a strength of 1300 students.</p>
+	<p>The morning section has primary and girls section, housed in the same building. The students come mostly from the Sheoraphuli and Baidyabati area.</p>
+    <hr>
+    </div>
+  </div>
+  
+    <div class="w3-card-4 w3-margin w3-white w3-margin-bottom">
+ 
+
+    <img src="cimt.jpg" alt="Nature" style="width:100%;height: 400px;">
+    <div class="w3-container w3-padding-8">
+      <h3><b>My Collage</b></h3>
+      <h5>Chandannagar Institute Of Management And Technology <span class="w3-opacity">August 20012 -May 2015</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p> Society of Education World A few young energetic blood engaged in various spheres of life in different districts of West Bengal with a view to an inner urge to serve the society in some fruitful way came under an umberella and formed the Hooghly Association of Reserch and Education (HARE), a non-govt organisation and got the same registered under the Society's Registration Act. W.B. in the year 2001.</P>
+<p>Chandannagar Institute of Management & Technology prepares its students not just for a good career, but also for life itself. Our aim is that every student who is admitted becomes a total representative of the ideology to embrace the power of education and the importance of teachers to provoke that power. Our learning systems and methodologies are a proven success because of the superlative performance of the faculties in their academic fields.</p>
+     <hr>
+    </div>
+  </div>
+  <hr>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card-2 w3-margin  w3-margin-top">
+  <img src="me.jpg" style="width:100%; height: 500px;">
+    <div class="w3-container w3-white">
+      <h4 style="font-family: sans-serif"><i><b>Spandan Majumder</b></i></h4>
+      <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+      <hr>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card-2 w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Click To View Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      
+      <a href="https://www.facebook.com/UnionInstitution/?fref=ts" style="text-decoration: none;">
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="union3.jpg" alt="Image" class="w3-left w3-margin-right"  style="width:70px;height: 40px">
+        <span class="w3-large">Union Institution</span><br>
+        <span>    Serampore</span>
+      </li> </a> <hr>
+      <a href="https://www.facebook.com/jeet.chatterjee.773?fref=ts&ref=br_tf" style="text-decoration: none;">
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/School_View.jpg" alt="Image" class="w3-left w3-margin-right" style="width:70px;height: 40px">
+        <span class="w3-large">Surendranath Vidyaniketan</span><br>
+        <span>    Sheoraphuly</span>
+      </li> </a> <hr>
+      <a href="https://www.facebook.com/jeet.chatterjee.773?fref=ts&ref=br_tf" style="text-decoration: none;">
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="cimt4.jpg" alt="Image" class="w3-left w3-margin-right"  style="width:70px;height: 40px">
+        <span class="w3-large">CIMT</span><br>
+        <span>    Beach View</span>
+      </li> </a> <hr>
+       <a href="https://www.dipankarnalui.blogspot.in" style="text-decoration: none;">
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRayjp5cUnm0w-69W5HUhMCoFXZSukQPcMXQpYX5PqXmvg3qYXQvqVAvA" alt="Image" class="w3-left w3-margin-right"  style="width:70px;height: 50px">
+        <span class="w3-large">Dipankar Nalui</span><br>
+        <span>Pondicherry University</span>
+      </li> </a>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+  <div class="w3-container w3-padding w3-card-4 w3-margin " style="width:465px;height: 330px">
+    <iframe width="435px" height="100%"
+      src="https://www.youtube.com/embed/kFh8F7zaUbQ" frameborder="0" allowfullscreen">
+    </iframe>
+  </div><br>
+   <div class="w3-container w3-padding w3-card-4 w3-margin " style="width:465px;height: 330px">
+    <iframe width="435px" height="100%"
+      src="https://www.youtube.com/embed/Dvv2uuDmg2o" frameborder="0" allowfullscreen">
+    </iframe>
+  </div>
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <a href="https://www.facebook.com/DanceLoversWesternGroup">
+    <i class="fa fa-facebook-official w3-hover-text-indigo w3-large"></i>
+  </a>
+
+  <a href="">
+    <i class="fa fa-snapchat w3-hover-text-yellow w3-large"></i>
+    </a>
+  
+
+  <a href="https://twitter.com/login">
+    <i class="fa fa-twitter w3-hover-text-light-blue w3-large"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/sp%C3%A0nd%C3%A1n-m%C4%81j%C3%BBmd%C3%A9r-889238125/">
+    <i class="fa fa-linkedin w3-hover-text-blue w3-large"></i>
+  </a>
+   <a href="https://www.linkedin.com/m/company/13249596/">
+    <i class="fa fa-heart w3-hover-text-pink w3-large"></i>
+
+  </a
+  <a href="https://www.youtube.com" ><i class="fa fa-youtube w3-hover-text-red w3-large"></i></a>
+
+  <p>Powered by  <a href="http://www.itsmespandan.blogspot.com" target="_blank" class="design">Spandan Majumder</a></p>
+</footer>
+
+</body>
+</html>
