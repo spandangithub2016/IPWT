@@ -1,2 +1,2 @@
 # IPWT
-Internet Programing Web Technology realated Php sample Project
+Internet Programing Web Technology realated Php example project
