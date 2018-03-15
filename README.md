@@ -1,2 +1,2 @@
 # IPWT
-IPWT Sample Projects
+Internet Programming & Web Technology Sample Projects
